@@ -17,7 +17,7 @@ describe "DELETE /products/:id" do
       end
 
       it "então deve retornar 204" do
-        expect(@resp.code).to eql 201
+        expect(@resp.code).to eql 204
       end
     end
 
